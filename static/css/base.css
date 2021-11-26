@@ -170,6 +170,10 @@ a.category-badge > span.badge:hover {
     overflow-y: auto;
 }
 
+input { 
+    width: 100%; 
+}
+
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
