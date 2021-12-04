@@ -39,7 +39,6 @@ def checkout(request):
                             order=order,
                             product=product,
                             quantity=item_data,
-                            product_size=size,
                         )
                         order_line_item.save()
                     else:
@@ -114,4 +113,3 @@ def checkout_success(request, order_number):
     }
 
     return render(request, template, context)
-    
